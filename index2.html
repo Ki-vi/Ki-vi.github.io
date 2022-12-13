@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <link href="http://fonts.cdnfonts.com/css/noah" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <nav class="nav_container">
+                <a href="index.html"><img src="img/icons/logo.png"  class="logo_item"></a>
+                <ul class="nav_menu">
+                    <li class="nav_item" id="first_item"><a href="#">свічки
+                        <ul class="dropdown" id="first_dd">
+                            <li class="dropdown_item"><a href="#">Свічки</a></li>
+                            <li class="dropdown_item"><a>Сірники</a></li>
+                            <li class="dropdown_item"><a>Дифузори</a></li>
+                        </ul>
+                    </a></li>
+                    <li class="nav_item"><a href="#" >диффузори</a></li>
+                    <li class="nav_item"><a href="#" >про нас</a></li>
+                    <li class="nav_item"><a href="#" >корпоративні замовлення</a></li>
+                </ul>
+                <a class="cart" href="/index2.html"></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="order_container">
+            <div class="order_info">
+                <h2 class="order_title">ОФОРМЛЕННЯ ЗАМОВЛЕННЯ</h2>
+                <div class="info_box">
+                    <h4 class="info_title">Ваші дані</h4>
+                    <input type="text" placeholder="Ваше ім’я та прізвище*" class="input_line">
+                    <input type="email" placeholder="E-mail*" class="input_line">
+                    <input type="text" placeholder="Ваш телефон*" class="input_line">
+                </div>
+                <div class="info_box">
+                    <h4 class="info_title">Доставка</h4>
+                    <input type="" placeholder="Місто" class="input_line">
+                    <input type="" placeholder="№ відділення НП" class="input_line">
+                    <input type="text" placeholder="Одержувач (ПІБ повністю)" class="input_line">
+                    <input type="text" placeholder="Коментар" class="input_line">
+                </div>
+            </div>
+            <div class="cart_box">
+                <h2 class="cart_title">ВАШЕ ЗАМОВЛЕННЯ</h2>
+                <div class="cart_list">
+                    <!-- <div class="cart_item">
+                        <img src="">
+                        <div>
+                            <div>
+                                <label class="item_name">0</label>
+                                <label class="item_price">0</label>
+                            </div>
+                            <div class="counter_box">
+                                <button class="counter_butt" id="minus" disabled>-</button>
+                                <output class="count">1</output>
+                                <button class="counter_butt" id="plus">+</button>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    
+    </main>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/main_page.js"></script>
+</body>
+</html>

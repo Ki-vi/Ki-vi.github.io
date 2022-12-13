@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\style.css">
+    <link href="http://fonts.cdnfonts.com/css/noah" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <title>Need Candle store</title>
+</head>
+<body>  
+    <header id="head">
+        <div class="menu">
+            <nav class="nav_container">
+                <a src="img/icons/logo.png" class="logo_item" href="main_page.html"></a>
+                <ul class="nav_menu">
+                    <li class="nav_item" id="first_item"><a href="candles_page.html">свічки</a></li>
+                    <li class="nav_item" id="second_item"><a href="diffusers.html">диффузори</a></li>
+                    <li class="nav_item" id="third_item"><a href="main_page.html#about" >про нас</a></li>
+                    <li class="nav_item" id="fourth_item"><a href="corp_orders.html" >корпоративні замовлення</a></li>
+                </ul>
+                <button class="cart"></button>   
+            </nav>
+            <div class="dialog_box">
+                <div class="empty_space"></div>
+                <div class="cart_dialog">
+                    <div class="dialog_header">
+                        <h3 class="dialog_title">мій кошик</h3>
+                        <button class="close_dialog"></button>
+                    </div>
+                    <div class="product_list"></div>
+                    <div class="dialog_footer">
+                        <div class="summary">
+                            <h3 class="sum_txt">Разом</h3>
+                            <h3 class="total">0</h3>
+                        </div>
+                        <a class="create_order" href="index2.html">ОФОРМИТИ ЗАМОВЛЕННЯ</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </header>
+    <main>
+        <div class="top_content">
+            <div class="top_container">
+                <div class="txt_box">
+                    <p class="slogan">Need something special?</p>
+                    <p class="grey_txt">Тоді ласкаво просимо в наш candle-store.</p>
+                </div>
+            </div>
+         </div>
+        <div class="collections_container">
+            <div class="collections_header">
+                <span class="basic_txt">BASIC<b>❞</b> COLLECTION</span>
+                <span class="coll_txt">- це 7 неймовірних глибоких ароматів,
+                 які занурять вас у такі різні, але такі приємні моменти.
+                </span> 
+            </div>
+            <div class="box_for_slider">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <div class="slideshow">
+                    <div class="mySlides fade">
+                        <div class="product">
+                            <div сlass="prod_box">
+                                <img src="/img/slider/naomi.png" class="prod_img">
+                                <button class="like"></button>
+                            </div>
+                            <div class="product_info">
+                                <label class="prod_name">naomi</label>
+                                <label class="prod_price">690</label>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div сlass="prod_box">
+                                <img src="/img/slider/underLove.png" class="prod_img">
+                                <button class="like"></button>
+                            </div>
+                            <div class="product_info">
+                                <label class="prod_name">under Love</label>
+                                <label class="prod_price">690</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="product">
+                            <div сlass="prod_box">
+                                <img src="/img/slider/sunday_mood.jpg" class="prod_img">
+                                <button class="like"></button>
+                            </div>
+                            <div class="product_info">
+                                <label class="prod_name">SUNDAY MOOD</label>
+                                <label class="prod_price">690</label>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div сlass="prod_box">
+                                <img src="/img/slider/more.jpg" class="prod_img">
+                                <button class="like"></button>
+                            </div>
+                            <div class="product_info">
+                                <label class="prod_name">more</label>
+                                <label class="prod_price">690</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="product">
+                            <div сlass="prod_box">
+                                <img src="/img/slider/im_yours.PNG" class="prod_img">
+                                <button class="like"></button>
+                            </div>
+                            <div class="product_info">
+                                <label class="prod_name">I`m yours</label>
+                                <label class="prod_price">690</label>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div сlass="prod_box">
+                                <img src="/img/slider/tonko.jpg" class="prod_img">
+                                <button class="like"></button>
+                            </div>
+                            <div class="product_info">
+                                <label class="prod_name">tonko</label>
+                                <label class="prod_price">690</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="product">
+                            <div сlass="prod_box">
+                                <img src="/img/slider/beautyful.jpg" class="prod_img">
+                                <button class="like"></button>
+                            </div>
+                            <div class="product_info">
+                                <label class="prod_name">beautiful</label>
+                                <label class="prod_price">690</label>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div сlass="prod_box">
+                                <img src="/img/slider/coco_palm.jpg" class="prod_img">
+                                <button class="like"></button>
+                            </div>
+                            <div class="product_info">
+                                <label class="prod_name">coco palm</label>
+                                <label class="prod_price">690</label>
+                            </div>
+                        </div>
+                    </div>                              
+                </div>  
+                <a class="next" onclick="plusSlides(1)">&#10095;</a> 
+            </div>
+        </div>
+        <div class="about_container" id="about">
+            <h3 class="block_title">Про нас</h3>
+            <div class="content_box">
+                    <div class="about_text">
+                        <h3 class="title_txt">NEED - це ми, Ірина та Тетяна. 2 дівчини, 
+                            які захотіли створити щось насправді якісне, еко та українське.</h3>
+                        <ul class="about_list">
+                            <h4 class="about_list">Так з’явилися свічки NEED:</h4>
+                            <li class="list_item">з соєвого еко воску;</li>
+                            <li class="list_item">з преміальним ароматом,
+                             який справді передається як в холодному, 
+                             так і в гарячому станах;</li>
+                            <li class="list_item">з дерев’яним гнотом, який атмосферно потріскує;</li>
+                            <li class="list_item">та зі стильними бетонними чашами, які ми також 
+                            власноруч виготовляємо у нашій майстерні.</li>
+                        </ul>
+                        <p class="conclusive">Ми подбали про всі деталі, щоб ви дійсно
+                         насолоджувалися кожною хвилиною, проведеною в компанії наших крихіток.</p>
+                    </div> 
+                <img src="img/about_us.jpg" alt="about us" class="content_img" >
+            </div>
+        </div>
+        <div class="inst_container">
+            <div id="top">
+                <h3>Долучайся до нашого Інстаграм</h3>
+                <a class="inst_link" href="https://www.instagram.com/need.candle/?hl=en" target=”_blank”>@need.candle</a>
+            </div>
+            <div class="inst_imgs">
+                <a href="https://www.instagram.com/p/CZ7Oc4cNapr/" target=”_blank” class="inst_pic"><span class="inst_icon"></span></a>
+                <a href="https://www.instagram.com/p/CXikV-FtTVa/" target=”_blank” class="inst_pic"><span class="inst_icon"></span></a>
+                <a href="https://www.instagram.com/p/CfrHX43Nw1r/" target=”_blank” class="inst_pic"><span class="inst_icon"></span></a>
+                <a href="https://www.instagram.com/need.candle/?hl=en" target=”_blank” class="inst_pic"><span class="inst_icon"></span></a>
+            </div>
+            <a class="follow_butt" href="https://www.instagram.com/need.candle/?hl=en" target=”_blank”>Follow</a>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <div class="footer_box">
+                <img src="img/icons/logo.png" class="logo_item" href="#">
+                <div class="footer_links">
+                    <img src="img/icons/inst_footer.svg">
+                    <img src="img/icons/facebook_footer.svg">
+                </div>
+                <p class="rights">© 2022 NEED STORE</p>
+            </div>
+            <nav class="footer_nav">
+                <ul class="nav_list">
+                    <li class="footer_nav_item"><a href="main_page.html">Головна</a></li>
+                    <li class="footer_nav_item"><a href="main_page.html#about">Про нас</a></li>
+                    <li class="footer_nav_item"><a href="#">Контакти</a></li>
+                    <li class="footer_nav_item"><a href="delivery.html">Реквізити та доставка</a></li>
+                </ul>
+            </nav>
+            <nav class="footer_nav">
+                <ul class="nav_list">
+                    <li class="footer_nav_item"><a href="privacy_policy.html">Політика конфіденійності</a></li>
+                    <li class="footer_nav_item"><a href="q_a.html">Питання та відповіді</a></li>
+                    <li class="footer_nav_item"><a href="user_agreement.html">Користувацька угода</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/main_page.js"></script>
+    <script src="js/slider_script.js"></script>
+</body>
+</html>
